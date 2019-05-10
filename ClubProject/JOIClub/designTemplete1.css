@@ -5,16 +5,26 @@ img{
   height: 20%;
   padding-left: 11%;
   padding-right: 20%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-
+footer{
+  margin-left: auto;
+	margin-right: auto;
+}
 p{
   padding-left: 11%;
   padding-right: 20%;
+  font-family: "monospace", Lucida, monospace;
+
 }
 h1{
   padding-left: 11%;
   padding-right: 20%;
   text-align: center;
+  font-family: "monospace", Lucida, monospace;
+  font-size: 36px;
 }
 
 ul {
@@ -22,7 +32,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 10%;
-  background-color: #f1f1f1;
+  background-color: yellow;
   position: fixed;
   height: 100%;
   overflow: auto;
